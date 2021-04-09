@@ -1,5 +1,4 @@
 # blueearthdata
-
 First exploration of using STAC as discovery backend for blueearthdata.org
 
 ## Hierarchy
