@@ -55,19 +55,19 @@
         },
         {
             "rel": "child",
-            "href": "./flowmap/catalog.json",
+            "href": "./flowmap/collection.json",
             "type": "application/geo+json",
             "title": "Flowmap"
         },
         {
             "rel": "child",
-            "href": "./gee/catalog.json",
+            "href": "./gee/collection.json",
             "type": "application/json",
             "title": "GEE WMS"
         },
         {
             "rel": "child",
-            "href": "./mapbox/catalog.json",
+            "href": "./mapbox/collection.json",
             "type": "application/json",
             "title": "Mapbox"
         },
