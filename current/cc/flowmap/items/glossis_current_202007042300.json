@@ -1,0 +1,61 @@
+{
+    "stac_version": "1.0.0-rc.2",
+    "stac_extensions": [],
+    "type": "Feature",
+    "id": "glossis_current_202007042300.json",
+    "collection": "cc-flowmap",
+    "links": [
+        {
+            "rel": "root",
+            "href": "../../../catalog.json"
+        },
+        {
+            "rel": "collection",
+            "href": "../collection.json"
+        }
+    ],
+    "bbox": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+    ],
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                -180.0,
+                -90.0
+            ],
+            [
+                180.0,
+                -90.0
+            ],
+            [
+                180.0,
+                90.0
+            ],
+            [
+                -180.0,
+                90.0
+            ],
+            [
+                -180.0,
+                -90.0
+            ]
+        ]
+    },
+    "properties": {
+        "datetime": "2020-07-04T23:00:00"
+    },
+    "assets": {
+        "visual": {
+            "href": "https://storage.googleapis.com/dgds-data-public/flowmap/glossis/tiles/glossis-current-202007042300/{z}/{x}/{y}.png",
+            "title": "Flowmap",
+            "type": "image/png",
+            "roles": [
+                "visual"
+            ]
+        }
+    }
+}

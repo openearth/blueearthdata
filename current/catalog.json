@@ -20,11 +20,6 @@
             "href": "./wl/collection.json",
             "type": "application/json",
             "title": "Water level"
-        },
-        {
-            "rel": "self",
-            "href": "./catalog.json",
-            "type": "application/json"
         }
     ]
 }

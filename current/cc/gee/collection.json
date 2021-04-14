@@ -112,25 +112,20 @@
         },
         {
             "rel": "parent",
-            "href": "../catalog.json",
+            "href": "../collection.json",
             "type": "application/json"
         },
         {
             "rel": "item",
-            "href": "./glossis_currents_20200301000000/glossis_currents_20200301000000.json",
+            "href": "./items/glossis_currents_20200301000000.json",
             "type": "application/geo+json",
             "title": "glossis_currents_20200301000000"
         },
         {
             "rel": "item",
-            "href": "./glossis_currents_20200301060000/glossis_currents_20200301060000.json",
+            "href": "./items/glossis_currents_20200301060000.json",
             "type": "application/geo+json",
             "title": "glossis_currents_20200301060000"
-        },
-        {
-            "rel": "self",
-            "href": "./collection.json",
-            "type": "application/json"
         }
     ]
 }

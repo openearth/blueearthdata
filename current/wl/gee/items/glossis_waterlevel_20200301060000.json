@@ -2,13 +2,9 @@
     "stac_version": "1.0.0-rc.2",
     "stac_extensions": [],
     "type": "Feature",
-    "id": "glossis_currents_20200301060000",
-    "collection": "cc-gee",
+    "id": "glossis_waterlevel_20200301060000",
+    "collection": "wl-gee",
     "links": [
-        {
-            "rel": "self",
-            "href": "./glossis_currents_20200301060000.json"
-        },
         {
             "rel": "root",
             "href": "../../../catalog.json"
@@ -50,7 +46,7 @@
         ]
     },
     "properties": {
-        "datetime": "2020-03-01T00:00:00",
+        "datetime": "2020-03-01T06:00:00",
         "imageId": "projects/dgds-gee/glossis/waterlevel/glossis_waterlevel_20210409050000"
     },
     "assets": {

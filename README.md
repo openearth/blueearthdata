@@ -25,4 +25,3 @@ Run in the current folder:
 Then clone and `npm install` stac-browser from https://github.com/radiantearth/stac-browser and run:
 `CATALOG_URL=http://localhost:8888/current/catalog.json  npm start -- --open`
 
-

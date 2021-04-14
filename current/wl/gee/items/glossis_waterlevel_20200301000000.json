@@ -1,0 +1,70 @@
+{
+    "stac_version": "1.0.0-rc.2",
+    "stac_extensions": [],
+    "type": "Feature",
+    "id": "glossis_waterlevel_20200301000000",
+    "collection": "wl-gee",
+    "links": [
+        {
+            "rel": "root",
+            "href": "../../../catalog.json"
+        },
+        {
+            "rel": "collection",
+            "href": "../collection.json"
+        }
+    ],
+    "bbox": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+    ],
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                -180.0,
+                -90.0
+            ],
+            [
+                180.0,
+                -90.0
+            ],
+            [
+                180.0,
+                90.0
+            ],
+            [
+                -180.0,
+                90.0
+            ],
+            [
+                -180.0,
+                -90.0
+            ]
+        ]
+    },
+    "properties": {
+        "datetime": "2020-03-01T00:00:00",
+        "imageId": "projects/dgds-gee/glossis/waterlevel/glossis_waterlevel_20210409050000"
+    },
+    "assets": {
+        "visual": {
+            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/fac1b1c721cf195f13cbc014a0d4a27c-2dbce5158035337cc4800ba8b698bea2/tiles/{z}/{x}/{y}",
+            "title": "WMS",
+            "type": "image/png",
+            "roles": [
+                "visual"
+            ]
+        },
+        "info": {
+            "href": "https://hydro-engine.appspot.com/get_feature_info",
+            "title": "FeatureInfo",
+            "type": "application/json",
+            "roles": [
+                "info"
+            ]
+        }
+    }
+}

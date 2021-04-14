@@ -1,5 +1,5 @@
 {
-    "id": "wl",
+    "id": "wl-gee",
     "type": "Collection",
     "stac_version": "1.0.0-rc.2",
     "description": "Water level, storm surge, tide and current forecasts by the Global Storm Surge Information System (GLOSSIS), which runs Deltares' Global Tide and Surge Model (GTMS) in real-time. This includes real-time forecasts at thousands of nearshore locations across the world. See [the Wiki](https://publicwiki.deltares.nl/display/BED/References) for further information about GLOSSIS and the GTSM, and to find out more about the validity and quality of this dataset.",
@@ -39,7 +39,38 @@
             ]
         }
     },
-    "properties": {},
+    "properties": {
+        "deltares:unit": "m",
+        "deltares:scope": "global",
+        "deltares:timespan": "Live",
+        "deltares:source": "projects/dgds-gee/glossis/waterlevel",
+        "deltares:gradient": [],
+        "gee:visualizations": [
+            {
+                "display_name": "Waterlevel",
+                "image_visualization": {
+                    "band_vis": {
+                        "min": [
+                            -4.0
+                        ],
+                        "max": [
+                            4.0
+                        ],
+                        "palette": [
+                            "#D1CBFF",
+                            "#006391",
+                            "#1D1B1A",
+                            "#902F14",
+                            "#FCB0B2"
+                        ],
+                        "bands": [
+                            null
+                        ]
+                    }
+                }
+            }
+        ]
+    },
     "license": "CC-BY-4.0",
     "summaries": {},
     "links": [
@@ -50,20 +81,20 @@
         },
         {
             "rel": "parent",
-            "href": "../catalog.json",
+            "href": "../collection.json",
             "type": "application/json"
         },
         {
-            "rel": "child",
-            "href": "./gee/collection.json",
-            "type": "application/json",
-            "title": "GEE WMS"
+            "rel": "item",
+            "href": "./items/glossis_waterlevel_20200301000000.json",
+            "type": "application/geo+json",
+            "title": "glossis_waterlevel_20200301000000"
         },
         {
-            "rel": "child",
-            "href": "./mapbox/collection.json",
-            "type": "application/json",
-            "title": "Mapbox"
+            "rel": "item",
+            "href": "./items/glossis_waterlevel_20200301060000.json",
+            "type": "application/geo+json",
+            "title": "glossis_waterlevel_20200301060000"
         }
     ]
 }

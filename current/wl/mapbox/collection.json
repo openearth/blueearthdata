@@ -1,9 +1,9 @@
 {
-    "id": "wl",
+    "id": "wl-mapbox",
     "type": "Collection",
     "stac_version": "1.0.0-rc.2",
     "description": "Water level, storm surge, tide and current forecasts by the Global Storm Surge Information System (GLOSSIS), which runs Deltares' Global Tide and Surge Model (GTMS) in real-time. This includes real-time forecasts at thousands of nearshore locations across the world. See [the Wiki](https://publicwiki.deltares.nl/display/BED/References) for further information about GLOSSIS and the GTSM, and to find out more about the validity and quality of this dataset.",
-    "title": "Waterlevel",
+    "title": "Waterlevel Mapbox",
     "keywords": [
         "fl",
         "os"
@@ -39,9 +39,35 @@
             ]
         }
     },
-    "properties": {},
+    "properties": {
+        "deltares:filterIds": [
+            "H.simulated"
+        ],
+        "deltares:id": "GLOSSIS",
+        "deltares:onClickmethod": "showGraph",
+        "deltares:source-layer": "pltc012flat",
+        "deltares:type": "circle"
+    },
     "license": "CC-BY-4.0",
     "summaries": {},
+    "assets": {
+        "visual": {
+            "href": "mapbox://global-data-viewer.6w19mbaw",
+            "title": "GLOSSIS",
+            "type": "mapbox/vector",
+            "roles": [
+                "visual"
+            ]
+        },
+        "graph": {
+            "href": "https://blueearthdata.org/api/timeseries",
+            "title": "Timeseries",
+            "type": "application/json",
+            "roles": [
+                "graph"
+            ]
+        }
+    },
     "links": [
         {
             "rel": "root",
@@ -50,20 +76,8 @@
         },
         {
             "rel": "parent",
-            "href": "../catalog.json",
+            "href": "../collection.json",
             "type": "application/json"
-        },
-        {
-            "rel": "child",
-            "href": "./gee/collection.json",
-            "type": "application/json",
-            "title": "GEE WMS"
-        },
-        {
-            "rel": "child",
-            "href": "./mapbox/collection.json",
-            "type": "application/json",
-            "title": "Mapbox"
         }
     ]
 }
