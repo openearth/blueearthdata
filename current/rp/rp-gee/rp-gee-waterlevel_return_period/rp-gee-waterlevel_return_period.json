@@ -1,0 +1,132 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0-beta.2",
+    "id": "rp-gee-waterlevel_return_period",
+    "properties": {
+        "deltares:min": 0.0,
+        "deltares:max": 7.0,
+        "deltares:palette": [
+            "151d44",
+            "1c455b",
+            "156d73",
+            "2a937f",
+            "7db390",
+            "c3d1ba",
+            "fff6f4"
+        ],
+        "deltares:band": "waterlevel_2",
+        "deltares:linearGradient": [
+            {
+                "offset": "0.000%",
+                "opacity": 100,
+                "color": "151d44"
+            },
+            {
+                "offset": "16.667%",
+                "opacity": 100,
+                "color": "1c455b"
+            },
+            {
+                "offset": "33.333%",
+                "opacity": 100,
+                "color": "156d73"
+            },
+            {
+                "offset": "50.000%",
+                "opacity": 100,
+                "color": "2a937f"
+            },
+            {
+                "offset": "66.667%",
+                "opacity": 100,
+                "color": "7db390"
+            },
+            {
+                "offset": "83.333%",
+                "opacity": 100,
+                "color": "c3d1ba"
+            },
+            {
+                "offset": "100.000%",
+                "opacity": 100,
+                "color": "fff6f4"
+            }
+        ],
+        "deltares:source": "projects/dgds-gee/gtsm/waterlevel_return_period",
+        "deltares:date": null,
+        "deltares:imageId": "projects/dgds-gee/gtsm/waterlevel_return_period",
+        "deltares:dataset": "waterlevel_return_period",
+        "datetime": "2021-04-20T18:39:56.641552Z"
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -180.0,
+                    -90.0
+                ],
+                [
+                    180.0,
+                    -90.0
+                ],
+                [
+                    180.0,
+                    90.0
+                ],
+                [
+                    -180.0,
+                    90.0
+                ],
+                [
+                    -180.0,
+                    -90.0
+                ]
+            ]
+        ]
+    },
+    "links": [
+        {
+            "rel": "root",
+            "href": "/Users/evetion/code/dgds-backend/current/rp/rp-gee/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "collection",
+            "href": "/Users/evetion/code/dgds-backend/current/rp/rp-gee/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "/Users/evetion/code/dgds-backend/current/rp/rp-gee/collection.json",
+            "type": "application/json"
+        }
+    ],
+    "assets": {
+        "visual": {
+            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/992465937cbc8ac7b1d4790011a369b2-33da1c576e4d15ad5816bdafc5742126/tiles/{z}/{x}/{y}",
+            "type": "application/png",
+            "title": "GEE",
+            "description": "GEE WMS url",
+            "roles": [
+                "visual"
+            ]
+        },
+        "data": {
+            "href": "gs://?",
+            "type": "application/geotiff",
+            "title": "COG",
+            "description": "Google Bucket COG",
+            "roles": [
+                "data"
+            ]
+        }
+    },
+    "bbox": [
+        -180,
+        -90,
+        180,
+        90
+    ],
+    "collection": "rp-gee"
+}

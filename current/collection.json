@@ -5,132 +5,137 @@
     "links": [
         {
             "rel": "root",
-            "href": "./collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./cc/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/cc/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./wl/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/wl/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./sh/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/sh/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./tt/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/tt/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./rp/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/rp/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./ti/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/ti/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./wd/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/wd/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./wv/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/wv/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./pp/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/pp/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./mt/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/mt/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./dd/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/dd/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./mo_90/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/mo_90/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./gb/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/gb/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./gll_dtm/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/gll_dtm/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./el/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/el/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./sm/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/sm/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./chasm_wvh/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/chasm_wvh/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./chasm_wvd/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/chasm_wvd/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./chasm_wvp/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/chasm_wvp/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./chasm_wvt/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/chasm_wvt/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./chasm_wds/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/chasm_wds/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./chasm_wdd/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/chasm_wdd/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./cd/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/cd/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./ce/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/ce/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./ms/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/ms/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "self",
+            "href": "/Users/evetion/code/dgds-backend/current/collection.json",
             "type": "application/json"
         }
     ],

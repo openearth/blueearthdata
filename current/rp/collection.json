@@ -5,17 +5,22 @@
     "links": [
         {
             "rel": "root",
-            "href": "../collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./rp-gee/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/rp/rp-gee/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "self",
+            "href": "/Users/evetion/code/dgds-backend/current/rp/collection.json",
             "type": "application/json"
         },
         {
             "rel": "parent",
-            "href": "../collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/collection.json",
             "type": "application/json"
         }
     ],

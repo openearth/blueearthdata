@@ -5,22 +5,27 @@
     "links": [
         {
             "rel": "root",
-            "href": "../collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./chasm_wvh-gee/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/chasm_wvh/chasm_wvh-gee/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./chasm_wvh-mapbox/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/chasm_wvh/chasm_wvh-mapbox/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "self",
+            "href": "/Users/evetion/code/dgds-backend/current/chasm_wvh/collection.json",
             "type": "application/json"
         },
         {
             "rel": "parent",
-            "href": "../collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/collection.json",
             "type": "application/json"
         }
     ],

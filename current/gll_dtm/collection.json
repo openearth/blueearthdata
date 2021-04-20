@@ -5,17 +5,22 @@
     "links": [
         {
             "rel": "root",
-            "href": "../collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./gll_dtm-gee/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/gll_dtm/gll_dtm-gee/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "self",
+            "href": "/Users/evetion/code/dgds-backend/current/gll_dtm/collection.json",
             "type": "application/json"
         },
         {
             "rel": "parent",
-            "href": "../collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/collection.json",
             "type": "application/json"
         }
     ],

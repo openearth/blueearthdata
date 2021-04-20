@@ -5,22 +5,27 @@
     "links": [
         {
             "rel": "root",
-            "href": "../collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./mo_90-gee/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/mo_90/mo_90-gee/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./mo_90-mapbox/collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/mo_90/mo_90-mapbox/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "self",
+            "href": "/Users/evetion/code/dgds-backend/current/mo_90/collection.json",
             "type": "application/json"
         },
         {
             "rel": "parent",
-            "href": "../collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/collection.json",
             "type": "application/json"
         }
     ],

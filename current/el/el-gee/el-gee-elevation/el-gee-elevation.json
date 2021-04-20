@@ -397,7 +397,7 @@
             "EMODnet"
         ],
         "deltares:function": "mosaic_elevation_datasets",
-        "datetime": "2021-04-20T17:17:35.886824Z"
+        "datetime": "2021-04-20T18:40:10.175688Z"
     },
     "geometry": {
         "type": "Polygon",
@@ -445,7 +445,7 @@
     ],
     "assets": {
         "visual": {
-            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/697f3ea7097a8ff68f38b669291b38f8-24fa8a1d63c12373239c5a10788d278a/tiles/{z}/{x}/{y}",
+            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/697f3ea7097a8ff68f38b669291b38f8-95d378d8bee0f7bbc02d7457b2539be0/tiles/{z}/{x}/{y}",
             "type": "application/png",
             "title": "GEE",
             "description": "GEE WMS url",
