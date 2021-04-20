@@ -1,0 +1,86 @@
+{
+    "id": "mt-gee",
+    "stac_version": "1.0.0-beta.2",
+    "description": "Air temperature forecasts by NOAA's Global Forecasting System (GFS). See https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs for more information about NOAA's GFS model.",
+    "links": [
+        {
+            "rel": "root",
+            "href": "/Users/evetion/code/dgds-backend/current/mt/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "/Users/evetion/code/dgds-backend/current/mt/mt-gee/mt-gee-projects/dgds-gee/gloffis/weather/gloffis_weather_20201231000000/mt-gee-projects/dgds-gee/gloffis/weather/gloffis_weather_20201231000000.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "/Users/evetion/code/dgds-backend/current/mt/collection.json",
+            "type": "application/json"
+        }
+    ],
+    "assets": {
+        "featureinfo": {
+            "href": "https://hydro-engine.appspot.com/get_feature_info",
+            "type": "application/json",
+            "title": "FeatureInfo",
+            "description": "FeatureInfo",
+            "name": "weather",
+            "roles": [
+                "featureinfo"
+            ]
+        },
+        "timeseries": {
+            "href": "http://tw-151.xtr.deltares.nl:8081/FewsWebServices/rest/digitaledelta/2.0",
+            "type": "dd-api",
+            "title": "T",
+            "description": "TimeSeries",
+            "name": "T",
+            "roles": [
+                "timeseries"
+            ]
+        }
+    },
+    "title": "Air temperature",
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    -180.0,
+                    -90.0,
+                    180.0,
+                    90.0
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "2015-10-22T00:00:00Z",
+                    null
+                ]
+            ]
+        }
+    },
+    "license": "proprietary",
+    "keywords": [
+        "Flooding"
+    ],
+    "providers": [
+        {
+            "name": "Deltares",
+            "description": "Deltares is an independent institute for applied research in the field of water and subsurface.",
+            "roles": [
+                "producer",
+                "processor"
+            ],
+            "url": "https://www.deltares.nl"
+        }
+    ],
+    "properties": {
+        "deltares:name": "weather",
+        "deltares:parameters": {
+            "band": "mean_temperature"
+        }
+    }
+}

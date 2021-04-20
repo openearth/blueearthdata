@@ -1,7 +1,7 @@
 {
-    "id": "cc",
+    "id": "dd",
     "stac_version": "1.0.0-beta.2",
-    "description": "Water level, storm surge, tide and current forecasts by the Global Storm Surge Information System (GLOSSIS), which runs Deltares' Global Tide and Surge Model (GTMS) in real-time. This includes real-time forecasts at thousands of nearshore locations across the world. See [the Wiki](https://publicwiki.deltares.nl/display/BED/References) for further information about GLOSSIS and the GTSM, and to find out more about the validity and quality of this dataset.",
+    "description": "Discharge forecasts by the Global Fluvial Forecasting System (GLOFFIS) run by Deltares, which runs global WFLOW models. This includes real-time forecasts at hundreds of locations across the world. See [the Wiki](https://publicwiki.deltares.nl/display/BED/References) for further information about GLOFFIS, and to find out more about the validity and quality of this dataset.",
     "links": [
         {
             "rel": "root",
@@ -10,12 +10,12 @@
         },
         {
             "rel": "child",
-            "href": "./cc-gee/collection.json",
+            "href": "./dd-gee/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./cc-flow/collection.json",
+            "href": "./dd-mapbox/collection.json",
             "type": "application/json"
         },
         {
@@ -24,7 +24,7 @@
             "type": "application/json"
         }
     ],
-    "title": "Currents",
+    "title": "Discharge",
     "extent": {
         "spatial": {
             "bbox": [
@@ -47,8 +47,7 @@
     },
     "license": "proprietary",
     "keywords": [
-        "Flooding",
-        "Offshore"
+        "Flooding"
     ],
     "providers": [
         {
@@ -64,6 +63,6 @@
     "properties": {
         "deltares:scope": "global",
         "deltares:timeSpan": "Live",
-        "deltares:units": "m/s"
+        "deltares:units": "m3/s"
     }
 }

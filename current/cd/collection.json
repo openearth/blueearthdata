@@ -1,7 +1,7 @@
 {
-    "id": "cc",
+    "id": "cd",
     "stac_version": "1.0.0-beta.2",
-    "description": "Water level, storm surge, tide and current forecasts by the Global Storm Surge Information System (GLOSSIS), which runs Deltares' Global Tide and Surge Model (GTMS) in real-time. This includes real-time forecasts at thousands of nearshore locations across the world. See [the Wiki](https://publicwiki.deltares.nl/display/BED/References) for further information about GLOSSIS and the GTSM, and to find out more about the validity and quality of this dataset.",
+    "description": "Drought indicators as calculated with the PCR-GLOBWB and MODFLOW models developed at Deltares and Utrecht University. Included are the Groundwater Declining Trend (GDT) and Evapotranspiration Deficit Index (ETDI). The indicators were developed as part of the COPERNICUS C3S Global Agriculture project. See [the Wiki](https://publicwiki.deltares.nl/display/BED/References) for further information about this project, and to find out more about the validity and quality of this dataset.",
     "links": [
         {
             "rel": "root",
@@ -10,12 +10,7 @@
         },
         {
             "rel": "child",
-            "href": "./cc-gee/collection.json",
-            "type": "application/json"
-        },
-        {
-            "rel": "child",
-            "href": "./cc-flow/collection.json",
+            "href": "./cd-gee/collection.json",
             "type": "application/json"
         },
         {
@@ -24,7 +19,7 @@
             "type": "application/json"
         }
     ],
-    "title": "Currents",
+    "title": "Groundwater declining trend",
     "extent": {
         "spatial": {
             "bbox": [
@@ -47,8 +42,7 @@
     },
     "license": "proprietary",
     "keywords": [
-        "Flooding",
-        "Offshore"
+        "Water availability"
     ],
     "providers": [
         {
@@ -64,6 +58,6 @@
     "properties": {
         "deltares:scope": "global",
         "deltares:timeSpan": "Live",
-        "deltares:units": "m/s"
+        "deltares:units": "m/year"
     }
 }

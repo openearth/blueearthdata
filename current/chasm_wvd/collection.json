@@ -1,7 +1,7 @@
 {
-    "id": "cc",
+    "id": "chasm_wvd",
     "stac_version": "1.0.0-beta.2",
-    "description": "Water level, storm surge, tide and current forecasts by the Global Storm Surge Information System (GLOSSIS), which runs Deltares' Global Tide and Surge Model (GTMS) in real-time. This includes real-time forecasts at thousands of nearshore locations across the world. See [the Wiki](https://publicwiki.deltares.nl/display/BED/References) for further information about GLOSSIS and the GTSM, and to find out more about the validity and quality of this dataset.",
+    "description": "Wind and wave hindcast data for two Dutch (future) offshore wind farms (Ten Noorden van de Wadden and Hollandse Kust West) from the TKI Coupled High-resolution Atmosphere-Sea Modelling (CHASM) project (Whiffle and Deltares). This dataset includes 9 year of high-resolution (spatial and temporal) field and point data. See [this link](https://projecten.topsectorenergie.nl/projecten/coupled-high-resolution-atmosphere-sea-modelling-00029218) for more information. For instructions on how to obtain the data, see the [Deltares Data Portal](https://deltaresdata.openearth.eu/geonetwork/srv/eng/catalog.search#/metadata/0bca9f82-00e0-4346-b164-fdc0aa043605).",
     "links": [
         {
             "rel": "root",
@@ -10,12 +10,12 @@
         },
         {
             "rel": "child",
-            "href": "./cc-gee/collection.json",
+            "href": "./chasm_wvd-gee/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./cc-flow/collection.json",
+            "href": "./chasm_wvd-mapbox/collection.json",
             "type": "application/json"
         },
         {
@@ -24,15 +24,15 @@
             "type": "application/json"
         }
     ],
-    "title": "Currents",
+    "title": "Wave Direction CHASM",
     "extent": {
         "spatial": {
             "bbox": [
                 [
-                    -180.0,
-                    -90.0,
-                    180.0,
-                    90.0
+                    3.0,
+                    50.0,
+                    7.0,
+                    57.0
                 ]
             ]
         },
@@ -47,8 +47,7 @@
     },
     "license": "proprietary",
     "keywords": [
-        "Flooding",
-        "Offshore"
+        "North Sea"
     ],
     "providers": [
         {
@@ -62,8 +61,8 @@
         }
     ],
     "properties": {
-        "deltares:scope": "global",
+        "deltares:scope": "regional",
         "deltares:timeSpan": "Live",
-        "deltares:units": "m/s"
+        "deltares:units": "degrees"
     }
 }

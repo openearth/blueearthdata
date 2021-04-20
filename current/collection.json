@@ -1,0 +1,169 @@
+{
+    "id": "deltares-blueearthdata",
+    "stac_version": "1.0.0-beta.2",
+    "description": "Deltares BlueEarth Data Collection",
+    "links": [
+        {
+            "rel": "root",
+            "href": "./collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./cc/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./wl/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./sh/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./tt/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./rp/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./ti/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./wd/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./wv/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./pp/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./mt/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./dd/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./mo_90/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./gb/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./gll_dtm/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./el/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./sm/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./chasm_wvh/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./chasm_wvd/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./chasm_wvp/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./chasm_wvt/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./chasm_wds/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./chasm_wdd/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./cd/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./ce/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./ms/collection.json",
+            "type": "application/json"
+        }
+    ],
+    "assets": {
+        "metadata": {
+            "href": "https://publicwiki.deltares.nl/display/BED/References",
+            "type": "application/html",
+            "title": "Deltares Public Wiki",
+            "description": "Deltares Public Wiki about Blue Earth Data",
+            "roles": [
+                "metadata"
+            ]
+        }
+    },
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    -180,
+                    -90,
+                    180,
+                    90
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "2015-10-22T00:00:00Z",
+                    null
+                ]
+            ]
+        }
+    },
+    "license": "various"
+}

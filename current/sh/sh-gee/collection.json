@@ -1,30 +1,47 @@
 {
-    "id": "cc",
+    "id": "sh-gee",
     "stac_version": "1.0.0-beta.2",
     "description": "Water level, storm surge, tide and current forecasts by the Global Storm Surge Information System (GLOSSIS), which runs Deltares' Global Tide and Surge Model (GTMS) in real-time. This includes real-time forecasts at thousands of nearshore locations across the world. See [the Wiki](https://publicwiki.deltares.nl/display/BED/References) for further information about GLOSSIS and the GTSM, and to find out more about the validity and quality of this dataset.",
     "links": [
         {
             "rel": "root",
-            "href": "../collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/sh/collection.json",
             "type": "application/json"
         },
         {
-            "rel": "child",
-            "href": "./cc-gee/collection.json",
-            "type": "application/json"
-        },
-        {
-            "rel": "child",
-            "href": "./cc-flow/collection.json",
+            "rel": "item",
+            "href": "/Users/evetion/code/dgds-backend/current/sh/sh-gee/sh-gee-projects/dgds-gee/glossis/waterlevel/glossis_waterlevel_20210420170000/sh-gee-projects/dgds-gee/glossis/waterlevel/glossis_waterlevel_20210420170000.json",
             "type": "application/json"
         },
         {
             "rel": "parent",
-            "href": "../collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/sh/collection.json",
             "type": "application/json"
         }
     ],
-    "title": "Currents",
+    "assets": {
+        "featureinfo": {
+            "href": "https://hydro-engine.appspot.com/get_feature_info",
+            "type": "application/json",
+            "title": "FeatureInfo",
+            "description": "FeatureInfo",
+            "name": "waterlevel",
+            "roles": [
+                "featureinfo"
+            ]
+        },
+        "timeseries": {
+            "href": "http://c-fews0169.directory.intra:8080/FewsWebServices/rest/digitaledelta/2.0",
+            "type": "dd-api",
+            "title": "H.surge.simulated",
+            "description": "TimeSeries",
+            "name": "H.surge.simulated",
+            "roles": [
+                "timeseries"
+            ]
+        }
+    },
+    "title": "Surge Height",
     "extent": {
         "spatial": {
             "bbox": [
@@ -62,8 +79,9 @@
         }
     ],
     "properties": {
-        "deltares:scope": "global",
-        "deltares:timeSpan": "Live",
-        "deltares:units": "m/s"
+        "deltares:name": "waterlevel",
+        "deltares:parameters": {
+            "band": "water_level_surge"
+        }
     }
 }

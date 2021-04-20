@@ -1,7 +1,7 @@
 {
-    "id": "cc",
+    "id": "ms",
     "stac_version": "1.0.0-beta.2",
-    "description": "Water level, storm surge, tide and current forecasts by the Global Storm Surge Information System (GLOSSIS), which runs Deltares' Global Tide and Surge Model (GTMS) in real-time. This includes real-time forecasts at thousands of nearshore locations across the world. See [the Wiki](https://publicwiki.deltares.nl/display/BED/References) for further information about GLOSSIS and the GTSM, and to find out more about the validity and quality of this dataset.",
+    "description": "Chlorophyll Indicator Data for phytoplankton growth season,  as six-year mean, and maximum expressed as P90. Based on blends of thousands of customised satellite datasets of concentration of chlorophyll pigment (CHL), which are indicative of phytoplankton standing stock in offshore, rocky, and turbid coastal waters. Typically, winter nutrients and multi-year chlorophyll statistics are evaluated against certain thresholds (assessment levels), to determine the ecological status of a marine area regarding eutrophication. We acknowledge CMEMS, ESA, EUMETSAT and Copernicus for satellite data. See https://www.deltares.nl/en/projects/msfd-eutro/  and http://www.openearth.nl/msfd-eutro/ for more information.",
     "links": [
         {
             "rel": "root",
@@ -10,12 +10,7 @@
         },
         {
             "rel": "child",
-            "href": "./cc-gee/collection.json",
-            "type": "application/json"
-        },
-        {
-            "rel": "child",
-            "href": "./cc-flow/collection.json",
+            "href": "./ms-gee/collection.json",
             "type": "application/json"
         },
         {
@@ -24,7 +19,7 @@
             "type": "application/json"
         }
     ],
-    "title": "Currents",
+    "title": "Chlorophyll indicator",
     "extent": {
         "spatial": {
             "bbox": [
@@ -47,8 +42,9 @@
     },
     "license": "proprietary",
     "keywords": [
-        "Flooding",
-        "Offshore"
+        "Water quality",
+        "Coastal Management",
+        "North Sea"
     ],
     "providers": [
         {
@@ -64,6 +60,6 @@
     "properties": {
         "deltares:scope": "global",
         "deltares:timeSpan": "Live",
-        "deltares:units": "m/s"
+        "deltares:units": "microgram/l"
     }
 }

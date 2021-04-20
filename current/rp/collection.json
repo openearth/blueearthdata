@@ -1,7 +1,7 @@
 {
-    "id": "cc",
+    "id": "rp",
     "stac_version": "1.0.0-beta.2",
-    "description": "Water level, storm surge, tide and current forecasts by the Global Storm Surge Information System (GLOSSIS), which runs Deltares' Global Tide and Surge Model (GTMS) in real-time. This includes real-time forecasts at thousands of nearshore locations across the world. See [the Wiki](https://publicwiki.deltares.nl/display/BED/References) for further information about GLOSSIS and the GTSM, and to find out more about the validity and quality of this dataset.",
+    "description": "Maximum water levels for return periods of 2 years, 5 years, 10 years, 25 years, 50 years, 75 years and 100 years, based on a reanalysis with Deltares' Global Tide and Surge Model (GTSM). The return periods are derived from a 38 year reanalysis with the GTSM, using ERA5 meteorology as input and with a Gumbel model fitted to the data. See [the Wiki](https://publicwiki.deltares.nl/display/BED/References) for further information about the GTSM, this reanalysis and further climate change scenarios carried out using this model.",
     "links": [
         {
             "rel": "root",
@@ -10,12 +10,7 @@
         },
         {
             "rel": "child",
-            "href": "./cc-gee/collection.json",
-            "type": "application/json"
-        },
-        {
-            "rel": "child",
-            "href": "./cc-flow/collection.json",
+            "href": "./rp-gee/collection.json",
             "type": "application/json"
         },
         {
@@ -24,7 +19,7 @@
             "type": "application/json"
         }
     ],
-    "title": "Currents",
+    "title": "Maximum water levels",
     "extent": {
         "spatial": {
             "bbox": [
@@ -48,7 +43,7 @@
     "license": "proprietary",
     "keywords": [
         "Flooding",
-        "Offshore"
+        "Coastal Management"
     ],
     "providers": [
         {
@@ -64,6 +59,6 @@
     "properties": {
         "deltares:scope": "global",
         "deltares:timeSpan": "Live",
-        "deltares:units": "m/s"
+        "deltares:units": "m"
     }
 }

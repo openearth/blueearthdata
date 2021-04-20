@@ -1,30 +1,36 @@
 {
-    "id": "cc",
+    "id": "wd-mapbox",
     "stac_version": "1.0.0-beta.2",
-    "description": "Water level, storm surge, tide and current forecasts by the Global Storm Surge Information System (GLOSSIS), which runs Deltares' Global Tide and Surge Model (GTMS) in real-time. This includes real-time forecasts at thousands of nearshore locations across the world. See [the Wiki](https://publicwiki.deltares.nl/display/BED/References) for further information about GLOSSIS and the GTSM, and to find out more about the validity and quality of this dataset.",
+    "description": "Surface wind forecasts from NOAA's Global Forecasting System (GFS). See https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs for more information about NOAA's GFS model.",
     "links": [
         {
             "rel": "root",
-            "href": "../collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/wd/collection.json",
             "type": "application/json"
         },
         {
-            "rel": "child",
-            "href": "./cc-gee/collection.json",
-            "type": "application/json"
-        },
-        {
-            "rel": "child",
-            "href": "./cc-flow/collection.json",
+            "rel": "item",
+            "href": "/Users/evetion/code/dgds-backend/current/wd/wd-mapbox/wd-mapbox-glossis/wd-mapbox-glossis.json",
             "type": "application/json"
         },
         {
             "rel": "parent",
-            "href": "../collection.json",
+            "href": "/Users/evetion/code/dgds-backend/current/wd/collection.json",
             "type": "application/json"
         }
     ],
-    "title": "Currents",
+    "assets": {
+        "graph": {
+            "href": "https://blueearthdata.org/api/timeseries",
+            "type": "application/json",
+            "title": "Timeseries",
+            "description": "Timeseries endpoint",
+            "roles": [
+                "graph"
+            ]
+        }
+    },
+    "title": "Wind",
     "extent": {
         "spatial": {
             "bbox": [
@@ -47,8 +53,8 @@
     },
     "license": "proprietary",
     "keywords": [
-        "Flooding",
-        "Offshore"
+        "Offshore",
+        "Flooding"
     ],
     "providers": [
         {
@@ -62,8 +68,8 @@
         }
     ],
     "properties": {
-        "deltares:scope": "global",
-        "deltares:timeSpan": "Live",
-        "deltares:units": "m/s"
+        "deltares:locationIdField": "locationId",
+        "deltares:units": "m/s",
+        "deltares:pointData": "line"
     }
 }

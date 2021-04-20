@@ -1,5 +1,5 @@
 {
-    "id": "cc",
+    "id": "sh",
     "stac_version": "1.0.0-beta.2",
     "description": "Water level, storm surge, tide and current forecasts by the Global Storm Surge Information System (GLOSSIS), which runs Deltares' Global Tide and Surge Model (GTMS) in real-time. This includes real-time forecasts at thousands of nearshore locations across the world. See [the Wiki](https://publicwiki.deltares.nl/display/BED/References) for further information about GLOSSIS and the GTSM, and to find out more about the validity and quality of this dataset.",
     "links": [
@@ -10,12 +10,12 @@
         },
         {
             "rel": "child",
-            "href": "./cc-gee/collection.json",
+            "href": "./sh-gee/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "./cc-flow/collection.json",
+            "href": "./sh-mapbox/collection.json",
             "type": "application/json"
         },
         {
@@ -24,7 +24,7 @@
             "type": "application/json"
         }
     ],
-    "title": "Currents",
+    "title": "Surge Height",
     "extent": {
         "spatial": {
             "bbox": [
@@ -64,6 +64,6 @@
     "properties": {
         "deltares:scope": "global",
         "deltares:timeSpan": "Live",
-        "deltares:units": "m/s"
+        "deltares:units": "m"
     }
 }
