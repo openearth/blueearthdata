@@ -5,137 +5,137 @@
     "links": [
         {
             "rel": "root",
-            "href": "/Users/evetion/code/dgds-backend/current/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/cc/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/cc/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/wl/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/wl/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/sh/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sh/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/tt/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/tt/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/rp/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/rp/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/ti/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/ti/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/wd/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/wd/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/wv/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/wv/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/pp/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/pp/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/mt/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/mt/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/dd/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/dd/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/mo_90/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/mo_90/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/gb/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/gb/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/gll_dtm/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/gll_dtm/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/el/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/el/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/sm/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sm/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/chasm_wvh/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wvh/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/chasm_wvd/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wvd/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/chasm_wvp/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wvp/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/chasm_wvt/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wvt/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/chasm_wds/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wds/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/chasm_wdd/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wdd/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/cd/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/cd/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/ce/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/ce/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/ms/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/ms/collection.json",
             "type": "application/json"
         },
         {
             "rel": "self",
-            "href": "/Users/evetion/code/dgds-backend/current/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/collection.json",
             "type": "application/json"
         }
     ],

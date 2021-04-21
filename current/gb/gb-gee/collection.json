@@ -5,17 +5,17 @@
     "links": [
         {
             "rel": "root",
-            "href": "/Users/evetion/code/dgds-backend/current/gb/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/gb/collection.json",
             "type": "application/json"
         },
         {
             "rel": "item",
-            "href": "/Users/evetion/code/dgds-backend/current/gb/gb-gee/gb-gee-2019/gb-gee-2019.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/gb/gb-gee/gb-gee-2019/gb-gee-2019.json",
             "type": "application/json"
         },
         {
             "rel": "parent",
-            "href": "/Users/evetion/code/dgds-backend/current/gb/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/gb/collection.json",
             "type": "application/json"
         }
     ],

@@ -62,7 +62,7 @@
         "deltares:date": null,
         "deltares:imageId": "projects/dgds-gee/metocean/waves/percentiles",
         "deltares:dataset": "percentiles",
-        "datetime": "2021-04-20T18:40:07.821682Z"
+        "datetime": "2021-04-21T08:59:43.925398Z"
     },
     "geometry": {
         "type": "Polygon",
@@ -94,23 +94,23 @@
     "links": [
         {
             "rel": "root",
-            "href": "/Users/evetion/code/dgds-backend/current/mo_90/mo_90-gee/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/mo_90/mo_90-gee/collection.json",
             "type": "application/json"
         },
         {
             "rel": "collection",
-            "href": "/Users/evetion/code/dgds-backend/current/mo_90/mo_90-gee/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/mo_90/mo_90-gee/collection.json",
             "type": "application/json"
         },
         {
             "rel": "parent",
-            "href": "/Users/evetion/code/dgds-backend/current/mo_90/mo_90-gee/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/mo_90/mo_90-gee/collection.json",
             "type": "application/json"
         }
     ],
     "assets": {
         "visual": {
-            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/147a685994d0df0cdaa6102fbd74fd8d-54d4ae5c1fa81943c76f67b7e45f6cd3/tiles/{z}/{x}/{y}",
+            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/147a685994d0df0cdaa6102fbd74fd8d-1ab08501c9673e9212ae51c638d4486c/tiles/{z}/{x}/{y}",
             "type": "application/png",
             "title": "GEE",
             "description": "GEE WMS url",

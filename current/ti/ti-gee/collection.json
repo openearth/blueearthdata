@@ -5,17 +5,17 @@
     "links": [
         {
             "rel": "root",
-            "href": "/Users/evetion/code/dgds-backend/current/ti/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/ti/collection.json",
             "type": "application/json"
         },
         {
             "rel": "item",
-            "href": "/Users/evetion/code/dgds-backend/current/ti/ti-gee/ti-gee-tidal_indicators/ti-gee-tidal_indicators.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/ti/ti-gee/ti-gee-tidal_indicators/ti-gee-tidal_indicators.json",
             "type": "application/json"
         },
         {
             "rel": "parent",
-            "href": "/Users/evetion/code/dgds-backend/current/ti/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/ti/collection.json",
             "type": "application/json"
         }
     ],

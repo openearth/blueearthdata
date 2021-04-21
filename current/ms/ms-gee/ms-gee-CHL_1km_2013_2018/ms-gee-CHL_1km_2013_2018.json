@@ -82,23 +82,23 @@
     "links": [
         {
             "rel": "root",
-            "href": "/Users/evetion/code/dgds-backend/current/ms/ms-gee/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/ms/ms-gee/collection.json",
             "type": "application/json"
         },
         {
             "rel": "collection",
-            "href": "/Users/evetion/code/dgds-backend/current/ms/ms-gee/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/ms/ms-gee/collection.json",
             "type": "application/json"
         },
         {
             "rel": "parent",
-            "href": "/Users/evetion/code/dgds-backend/current/ms/ms-gee/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/ms/ms-gee/collection.json",
             "type": "application/json"
         }
     ],
     "assets": {
         "visual": {
-            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/c9eff4ce71d19b453c29159812c619af-2e490012f335b013d9b953a8a975165f/tiles/{z}/{x}/{y}",
+            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/c9eff4ce71d19b453c29159812c619af-f0c7d50b6f2c1be498b4f03103d0d590/tiles/{z}/{x}/{y}",
             "type": "application/png",
             "title": "GEE",
             "description": "GEE WMS url",

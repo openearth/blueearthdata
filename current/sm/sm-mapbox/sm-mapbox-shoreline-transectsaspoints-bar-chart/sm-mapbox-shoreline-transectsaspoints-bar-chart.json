@@ -93,7 +93,7 @@
             "layerToZoomTo": "shoreline-transectsaspoints",
             "zoomTo": 10
         },
-        "datetime": "2021-04-20T18:40:10.176219Z"
+        "datetime": "2021-04-21T08:59:46.280494Z"
     },
     "geometry": {
         "type": "Polygon",
@@ -125,17 +125,17 @@
     "links": [
         {
             "rel": "root",
-            "href": "/Users/evetion/code/dgds-backend/current/sm/sm-mapbox/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sm/sm-mapbox/collection.json",
             "type": "application/json"
         },
         {
             "rel": "collection",
-            "href": "/Users/evetion/code/dgds-backend/current/sm/sm-mapbox/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sm/sm-mapbox/collection.json",
             "type": "application/json"
         },
         {
             "rel": "parent",
-            "href": "/Users/evetion/code/dgds-backend/current/sm/sm-mapbox/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sm/sm-mapbox/collection.json",
             "type": "application/json"
         }
     ],

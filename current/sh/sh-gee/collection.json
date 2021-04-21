@@ -5,17 +5,17 @@
     "links": [
         {
             "rel": "root",
-            "href": "/Users/evetion/code/dgds-backend/current/sh/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sh/collection.json",
             "type": "application/json"
         },
         {
             "rel": "item",
-            "href": "/Users/evetion/code/dgds-backend/current/sh/sh-gee/sh-gee-glossis_waterlevel_20210420170000/sh-gee-glossis_waterlevel_20210420170000.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sh/sh-gee/sh-gee-glossis_waterlevel_20210421050000/sh-gee-glossis_waterlevel_20210421050000.json",
             "type": "application/json"
         },
         {
             "rel": "parent",
-            "href": "/Users/evetion/code/dgds-backend/current/sh/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sh/collection.json",
             "type": "application/json"
         }
     ],

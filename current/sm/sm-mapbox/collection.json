@@ -5,32 +5,32 @@
     "links": [
         {
             "rel": "root",
-            "href": "/Users/evetion/code/dgds-backend/current/sm/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sm/collection.json",
             "type": "application/json"
         },
         {
             "rel": "item",
-            "href": "/Users/evetion/code/dgds-backend/current/sm/sm-mapbox/sm-mapbox-shoreline-aggregatedpointsz0/sm-mapbox-shoreline-aggregatedpointsz0.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sm/sm-mapbox/sm-mapbox-shoreline-aggregatedpointsz0/sm-mapbox-shoreline-aggregatedpointsz0.json",
             "type": "application/json"
         },
         {
             "rel": "item",
-            "href": "/Users/evetion/code/dgds-backend/current/sm/sm-mapbox/sm-mapbox-shoreline-aggregatedpointsz5/sm-mapbox-shoreline-aggregatedpointsz5.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sm/sm-mapbox/sm-mapbox-shoreline-aggregatedpointsz5/sm-mapbox-shoreline-aggregatedpointsz5.json",
             "type": "application/json"
         },
         {
             "rel": "item",
-            "href": "/Users/evetion/code/dgds-backend/current/sm/sm-mapbox/sm-mapbox-shoreline-transectsaspoints/sm-mapbox-shoreline-transectsaspoints.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sm/sm-mapbox/sm-mapbox-shoreline-transectsaspoints/sm-mapbox-shoreline-transectsaspoints.json",
             "type": "application/json"
         },
         {
             "rel": "item",
-            "href": "/Users/evetion/code/dgds-backend/current/sm/sm-mapbox/sm-mapbox-shoreline-transectsaspoints-bar-chart/sm-mapbox-shoreline-transectsaspoints-bar-chart.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sm/sm-mapbox/sm-mapbox-shoreline-transectsaspoints-bar-chart/sm-mapbox-shoreline-transectsaspoints-bar-chart.json",
             "type": "application/json"
         },
         {
             "rel": "parent",
-            "href": "/Users/evetion/code/dgds-backend/current/sm/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sm/collection.json",
             "type": "application/json"
         }
     ],

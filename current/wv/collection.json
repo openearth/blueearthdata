@@ -5,27 +5,27 @@
     "links": [
         {
             "rel": "root",
-            "href": "/Users/evetion/code/dgds-backend/current/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/wv/wv-gee/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/wv/wv-gee/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/wv/wv-mapbox/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/wv/wv-mapbox/collection.json",
             "type": "application/json"
         },
         {
             "rel": "self",
-            "href": "/Users/evetion/code/dgds-backend/current/wv/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/wv/collection.json",
             "type": "application/json"
         },
         {
             "rel": "parent",
-            "href": "/Users/evetion/code/dgds-backend/current/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/collection.json",
             "type": "application/json"
         }
     ],

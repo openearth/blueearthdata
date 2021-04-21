@@ -5,22 +5,22 @@
     "links": [
         {
             "rel": "root",
-            "href": "/Users/evetion/code/dgds-backend/current/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/collection.json",
             "type": "application/json"
         },
         {
             "rel": "child",
-            "href": "/Users/evetion/code/dgds-backend/current/ce/ce-gee/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/ce/ce-gee/collection.json",
             "type": "application/json"
         },
         {
             "rel": "self",
-            "href": "/Users/evetion/code/dgds-backend/current/ce/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/ce/collection.json",
             "type": "application/json"
         },
         {
             "rel": "parent",
-            "href": "/Users/evetion/code/dgds-backend/current/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/collection.json",
             "type": "application/json"
         }
     ],

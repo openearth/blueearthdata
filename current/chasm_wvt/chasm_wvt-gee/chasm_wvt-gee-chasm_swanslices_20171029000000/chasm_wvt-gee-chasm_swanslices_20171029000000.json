@@ -88,23 +88,23 @@
     "links": [
         {
             "rel": "root",
-            "href": "/Users/evetion/code/dgds-backend/current/chasm_wvt/chasm_wvt-gee/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wvt/chasm_wvt-gee/collection.json",
             "type": "application/json"
         },
         {
             "rel": "collection",
-            "href": "/Users/evetion/code/dgds-backend/current/chasm_wvt/chasm_wvt-gee/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wvt/chasm_wvt-gee/collection.json",
             "type": "application/json"
         },
         {
             "rel": "parent",
-            "href": "/Users/evetion/code/dgds-backend/current/chasm_wvt/chasm_wvt-gee/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wvt/chasm_wvt-gee/collection.json",
             "type": "application/json"
         }
     ],
     "assets": {
         "visual": {
-            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/df38305137b048e2ac6e8080b146a053-40d45db63a986a2ef87d9fb123541202/tiles/{z}/{x}/{y}",
+            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/df38305137b048e2ac6e8080b146a053-a6cab01cfd8ecfb14003ce72c36061e3/tiles/{z}/{x}/{y}",
             "type": "application/png",
             "title": "GEE",
             "description": "GEE WMS url",

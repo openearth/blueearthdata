@@ -1,68 +1,63 @@
 {
     "type": "Feature",
     "stac_version": "1.0.0-beta.2",
-    "id": "wv-gee-glossis_waveheight_20210423120000",
+    "id": "wd-gee-glossis_wind_20210424000000",
     "properties": {
         "deltares:min": 0.0,
-        "deltares:max": 8.0,
+        "deltares:max": 50.0,
         "deltares:palette": [
-            "#042333",
-            "#3c0912",
-            "#730e27",
-            "#a62225",
-            "#c0583b",
-            "#d08b73",
-            "#dfbcb0",
-            "#f1edec"
+            "#172313",
+            "#144b2a",
+            "#187328",
+            "#5f920c",
+            "#aaac20",
+            "#e1cd73",
+            "#fffdcd"
         ],
-        "deltares:band": "waveheight",
+        "deltares:function": "magnitude",
         "deltares:linearGradient": [
             {
                 "offset": "0.000%",
                 "opacity": 100,
-                "color": "#042333"
+                "color": "#172313"
             },
             {
-                "offset": "14.286%",
+                "offset": "16.667%",
                 "opacity": 100,
-                "color": "#3c0912"
+                "color": "#144b2a"
             },
             {
-                "offset": "28.571%",
+                "offset": "33.333%",
                 "opacity": 100,
-                "color": "#730e27"
+                "color": "#187328"
             },
             {
-                "offset": "42.857%",
+                "offset": "50.000%",
                 "opacity": 100,
-                "color": "#a62225"
+                "color": "#5f920c"
             },
             {
-                "offset": "57.143%",
+                "offset": "66.667%",
                 "opacity": 100,
-                "color": "#c0583b"
+                "color": "#aaac20"
             },
             {
-                "offset": "71.429%",
+                "offset": "83.333%",
                 "opacity": 100,
-                "color": "#d08b73"
-            },
-            {
-                "offset": "85.714%",
-                "opacity": 100,
-                "color": "#dfbcb0"
+                "color": "#e1cd73"
             },
             {
                 "offset": "100.000%",
                 "opacity": 100,
-                "color": "#f1edec"
+                "color": "#fffdcd"
             }
         ],
-        "deltares:source": "projects/dgds-gee/glossis/waveheight",
-        "deltares:date": "2021-04-23T12:00:00",
-        "deltares:imageId": "projects/dgds-gee/glossis/waveheight/glossis_waveheight_20210423120000",
-        "deltares:dataset": "waveheight",
-        "datetime": "2021-04-23T12:00:00Z"
+        "deltares:source": "projects/dgds-gee/glossis/wind",
+        "deltares:date": "2021-04-24T00:00:00",
+        "deltares:imageId": "projects/dgds-gee/glossis/wind/glossis_wind_20210424000000",
+        "deltares:dataset": "wind",
+        "deltares:band": null,
+        "datetime": "2021-04-24T00:00:00Z"
     },
     "geometry": {
         "type": "Polygon",
@@ -94,23 +89,23 @@
     "links": [
         {
             "rel": "root",
-            "href": "/Users/evetion/code/dgds-backend/current/wv/wv-gee/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/wd/wd-gee/collection.json",
             "type": "application/json"
         },
         {
             "rel": "collection",
-            "href": "/Users/evetion/code/dgds-backend/current/wv/wv-gee/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/wd/wd-gee/collection.json",
             "type": "application/json"
         },
         {
             "rel": "parent",
-            "href": "/Users/evetion/code/dgds-backend/current/wv/wv-gee/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/wd/wd-gee/collection.json",
             "type": "application/json"
         }
     ],
     "assets": {
         "visual": {
-            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/39462152e7e7966100dc7fd264271775-938dd4d27f41df5cc8f3718eb9cc93cb/tiles/{z}/{x}/{y}",
+            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/ddd2cc4e634bc81ece9f755cf7f17d14-a5526acb5084a9c00a755c69d6ea533e/tiles/{z}/{x}/{y}",
             "type": "application/png",
             "title": "GEE",
             "description": "GEE WMS url",
@@ -134,5 +129,5 @@
         180,
         90
     ],
-    "collection": "wv-gee"
+    "collection": "wd-gee"
 }

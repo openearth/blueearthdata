@@ -397,7 +397,7 @@
             "EMODnet"
         ],
         "deltares:function": "mosaic_elevation_datasets",
-        "datetime": "2021-04-20T18:40:10.175688Z"
+        "datetime": "2021-04-21T08:59:46.279961Z"
     },
     "geometry": {
         "type": "Polygon",
@@ -429,23 +429,23 @@
     "links": [
         {
             "rel": "root",
-            "href": "/Users/evetion/code/dgds-backend/current/el/el-gee/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/el/el-gee/collection.json",
             "type": "application/json"
         },
         {
             "rel": "collection",
-            "href": "/Users/evetion/code/dgds-backend/current/el/el-gee/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/el/el-gee/collection.json",
             "type": "application/json"
         },
         {
             "rel": "parent",
-            "href": "/Users/evetion/code/dgds-backend/current/el/el-gee/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/el/el-gee/collection.json",
             "type": "application/json"
         }
     ],
     "assets": {
         "visual": {
-            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/697f3ea7097a8ff68f38b669291b38f8-95d378d8bee0f7bbc02d7457b2539be0/tiles/{z}/{x}/{y}",
+            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/697f3ea7097a8ff68f38b669291b38f8-fcd677f55e34e1b66e115b09bc406bd4/tiles/{z}/{x}/{y}",
             "type": "application/png",
             "title": "GEE",
             "description": "GEE WMS url",

@@ -5,17 +5,17 @@
     "links": [
         {
             "rel": "root",
-            "href": "/Users/evetion/code/dgds-backend/current/chasm_wvd/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wvd/collection.json",
             "type": "application/json"
         },
         {
             "rel": "item",
-            "href": "/Users/evetion/code/dgds-backend/current/chasm_wvd/chasm_wvd-mapbox/chasm_wvd-mapbox-chasm/chasm_wvd-mapbox-chasm.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wvd/chasm_wvd-mapbox/chasm_wvd-mapbox-chasm/chasm_wvd-mapbox-chasm.json",
             "type": "application/json"
         },
         {
             "rel": "parent",
-            "href": "/Users/evetion/code/dgds-backend/current/chasm_wvd/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wvd/collection.json",
             "type": "application/json"
         }
     ],

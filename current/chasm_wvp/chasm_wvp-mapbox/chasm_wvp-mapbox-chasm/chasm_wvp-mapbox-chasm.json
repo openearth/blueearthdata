@@ -16,7 +16,7 @@
         "deltares:onClick": {
             "method": "showGraph"
         },
-        "datetime": "2021-04-20T18:40:14.662201Z"
+        "datetime": "2021-04-21T08:59:50.196173Z"
     },
     "geometry": {
         "type": "Polygon",
@@ -48,17 +48,17 @@
     "links": [
         {
             "rel": "root",
-            "href": "/Users/evetion/code/dgds-backend/current/chasm_wvp/chasm_wvp-mapbox/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wvp/chasm_wvp-mapbox/collection.json",
             "type": "application/json"
         },
         {
             "rel": "collection",
-            "href": "/Users/evetion/code/dgds-backend/current/chasm_wvp/chasm_wvp-mapbox/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wvp/chasm_wvp-mapbox/collection.json",
             "type": "application/json"
         },
         {
             "rel": "parent",
-            "href": "/Users/evetion/code/dgds-backend/current/chasm_wvp/chasm_wvp-mapbox/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wvp/chasm_wvp-mapbox/collection.json",
             "type": "application/json"
         }
     ],

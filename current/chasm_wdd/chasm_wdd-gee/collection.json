@@ -5,17 +5,17 @@
     "links": [
         {
             "rel": "root",
-            "href": "/Users/evetion/code/dgds-backend/current/chasm_wdd/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wdd/collection.json",
             "type": "application/json"
         },
         {
             "rel": "item",
-            "href": "/Users/evetion/code/dgds-backend/current/chasm_wdd/chasm_wdd-gee/chasm_wdd-gee-chasm_grasplices_20171028230000/chasm_wdd-gee-chasm_grasplices_20171028230000.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wdd/chasm_wdd-gee/chasm_wdd-gee-chasm_grasplices_20171028230000/chasm_wdd-gee-chasm_grasplices_20171028230000.json",
             "type": "application/json"
         },
         {
             "rel": "parent",
-            "href": "/Users/evetion/code/dgds-backend/current/chasm_wdd/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wdd/collection.json",
             "type": "application/json"
         }
     ],

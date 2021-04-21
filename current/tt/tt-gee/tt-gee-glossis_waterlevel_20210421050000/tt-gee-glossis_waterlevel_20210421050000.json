@@ -1,7 +1,7 @@
 {
     "type": "Feature",
     "stac_version": "1.0.0-beta.2",
-    "id": "tt-gee-glossis_waterlevel_20210420170000",
+    "id": "tt-gee-glossis_waterlevel_20210421050000",
     "properties": {
         "deltares:min": -4.0,
         "deltares:max": 4.0,
@@ -41,10 +41,10 @@
             }
         ],
         "deltares:source": "projects/dgds-gee/glossis/waterlevel",
-        "deltares:date": "2021-04-20T17:00:00",
-        "deltares:imageId": "projects/dgds-gee/glossis/waterlevel/glossis_waterlevel_20210420170000",
+        "deltares:date": "2021-04-21T05:00:00",
+        "deltares:imageId": "projects/dgds-gee/glossis/waterlevel/glossis_waterlevel_20210421050000",
         "deltares:dataset": "waterlevel",
-        "datetime": "2021-04-20T17:00:00Z"
+        "datetime": "2021-04-21T05:00:00Z"
     },
     "geometry": {
         "type": "Polygon",
@@ -76,23 +76,23 @@
     "links": [
         {
             "rel": "root",
-            "href": "/Users/evetion/code/dgds-backend/current/tt/tt-gee/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/tt/tt-gee/collection.json",
             "type": "application/json"
         },
         {
             "rel": "collection",
-            "href": "/Users/evetion/code/dgds-backend/current/tt/tt-gee/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/tt/tt-gee/collection.json",
             "type": "application/json"
         },
         {
             "rel": "parent",
-            "href": "/Users/evetion/code/dgds-backend/current/tt/tt-gee/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/tt/tt-gee/collection.json",
             "type": "application/json"
         }
     ],
     "assets": {
         "visual": {
-            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/ad941b8d46ffbeb44cbced6c18b7d5ee-9413cd1d2d6c57a5d35f738a5a203957/tiles/{z}/{x}/{y}",
+            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/5dbc7752ae694c375bcf437d43f7cee9-316a8791d665e1b7f27aaeae83c9c59d/tiles/{z}/{x}/{y}",
             "type": "application/png",
             "title": "GEE",
             "description": "GEE WMS url",
