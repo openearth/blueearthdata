@@ -98,10 +98,20 @@
     ],
     "assets": {
         "visual": {
-            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/c9eff4ce71d19b453c29159812c619af-f0c7d50b6f2c1be498b4f03103d0d590/tiles/{z}/{x}/{y}",
+            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/c9eff4ce71d19b453c29159812c619af-3633291f204c455bbd30beb25f69496d/tiles/{z}/{x}/{y}",
             "type": "application/png",
             "title": "GEE",
             "description": "GEE WMS url",
+            "eo:bands": [
+                {
+                    "name": "b1",
+                    "description": "mean (six-year mean value)"
+                },
+                {
+                    "name": "b2",
+                    "description": "maximum (six-year p90 value)"
+                }
+            ],
             "roles": [
                 "visual"
             ]

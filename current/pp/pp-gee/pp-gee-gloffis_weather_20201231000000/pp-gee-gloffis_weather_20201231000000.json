@@ -104,7 +104,7 @@
     ],
     "assets": {
         "visual": {
-            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/0819b5bc0880e01c8efca34e4e4efb65-1a124d8f8082f1369d91784596364019/tiles/{z}/{x}/{y}",
+            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/0819b5bc0880e01c8efca34e4e4efb65-f133927be4de51dd9b9a2e1b10f2d747/tiles/{z}/{x}/{y}",
             "type": "application/png",
             "title": "GEE",
             "description": "GEE WMS url",

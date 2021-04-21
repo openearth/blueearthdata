@@ -1,10 +1,10 @@
 {
     "type": "Feature",
     "stac_version": "1.0.0-beta.2",
-    "id": "ti-gee-tidal_indicators",
+    "id": "wl-gee-glossis_waterlevel_20210421110000",
     "properties": {
-        "deltares:min": -0.1,
-        "deltares:max": 0.1,
+        "deltares:min": -4.0,
+        "deltares:max": 4.0,
         "deltares:palette": [
             "#D1CBFF",
             "#006391",
@@ -12,7 +12,7 @@
             "#902F14",
             "#FCB0B2"
         ],
-        "deltares:band": "mean_sea_level",
+        "deltares:band": "water_level",
         "deltares:linearGradient": [
             {
                 "offset": "0.000%",
@@ -40,11 +40,11 @@
                 "color": "#FCB0B2"
             }
         ],
-        "deltares:source": "projects/dgds-gee/gtsm/tidal_indicators",
-        "deltares:date": null,
-        "deltares:imageId": "projects/dgds-gee/gtsm/tidal_indicators",
-        "deltares:dataset": "tidal_indicators",
-        "datetime": "2021-04-21T11:29:56.348878Z"
+        "deltares:source": "projects/dgds-gee/glossis/waterlevel",
+        "deltares:date": "2021-04-21T11:00:00",
+        "deltares:imageId": "projects/dgds-gee/glossis/waterlevel/glossis_waterlevel_20210421110000",
+        "deltares:dataset": "waterlevel",
+        "datetime": "2021-04-21T11:00:00Z"
     },
     "geometry": {
         "type": "Polygon",
@@ -76,48 +76,26 @@
     "links": [
         {
             "rel": "root",
-            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/ti/ti-gee/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/wl/wl-gee/collection.json",
             "type": "application/json"
         },
         {
             "rel": "collection",
-            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/ti/ti-gee/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/wl/wl-gee/collection.json",
             "type": "application/json"
         },
         {
             "rel": "parent",
-            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/ti/ti-gee/collection.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/wl/wl-gee/collection.json",
             "type": "application/json"
         }
     ],
     "assets": {
         "visual": {
-            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/59d0a06b382361c0d219b96f63abed13-8cd2490c50349d4107ccfd8144f71e2a/tiles/{z}/{x}/{y}",
+            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/f5a92b0b3d5ecc2779175bdc0a2a9e2d-04d54bd8515dd511eca3ed3055ec3fc2/tiles/{z}/{x}/{y}",
             "type": "application/png",
             "title": "GEE",
             "description": "GEE WMS url",
-            "eo:bands": [
-                {
-                    "name": "mean_sea_level",
-                    "description": "MSL"
-                },
-                {
-                    "name": "mean_higher_high_water",
-                    "description": "MHHW"
-                },
-                {
-                    "name": "mean_lower_low_water",
-                    "description": "MLLW"
-                },
-                {
-                    "name": "highest_astronomical_tide",
-                    "description": "HAT"
-                },
-                {
-                    "name": "lowest_astronomical_tide",
-                    "description": "LAT"
-                }
-            ],
             "roles": [
                 "visual"
             ]
@@ -138,5 +116,5 @@
         180,
         90
     ],
-    "collection": "ti-gee"
+    "collection": "wl-gee"
 }

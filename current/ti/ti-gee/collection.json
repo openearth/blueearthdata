@@ -31,6 +31,30 @@
             ]
         }
     },
+    "summaries": {
+        "eo:bands": [
+            {
+                "name": "mean_sea_level",
+                "description": "MSL"
+            },
+            {
+                "name": "mean_higher_high_water",
+                "description": "MHHW"
+            },
+            {
+                "name": "mean_lower_low_water",
+                "description": "MLLW"
+            },
+            {
+                "name": "highest_astronomical_tide",
+                "description": "HAT"
+            },
+            {
+                "name": "lowest_astronomical_tide",
+                "description": "LAT"
+            }
+        ]
+    },
     "title": "Tidal indicators",
     "extent": {
         "spatial": {

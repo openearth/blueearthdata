@@ -31,6 +31,38 @@
             ]
         }
     },
+    "summaries": {
+        "eo:bands": [
+            {
+                "name": "waterlevel_2",
+                "description": "2 year return period"
+            },
+            {
+                "name": "waterlevel_5",
+                "description": "5 year return period"
+            },
+            {
+                "name": "waterlevel_10",
+                "description": "10 year return period"
+            },
+            {
+                "name": "waterlevel_25",
+                "description": "25 year return period"
+            },
+            {
+                "name": "waterlevel_50",
+                "description": "50 year return period"
+            },
+            {
+                "name": "waterlevel_75",
+                "description": "75 year return period"
+            },
+            {
+                "name": "waterlevel_100",
+                "description": "100 year return period"
+            }
+        ]
+    },
     "title": "Maximum water levels",
     "extent": {
         "spatial": {

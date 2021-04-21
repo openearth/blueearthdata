@@ -31,6 +31,18 @@
             ]
         }
     },
+    "summaries": {
+        "eo:bands": [
+            {
+                "name": "b1",
+                "description": "mean (six-year mean value)"
+            },
+            {
+                "name": "b2",
+                "description": "maximum (six-year p90 value)"
+            }
+        ]
+    },
     "title": "Chlorophyll indicator",
     "extent": {
         "spatial": {

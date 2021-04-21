@@ -150,6 +150,16 @@
             ]
         }
     },
+    "summaries": {
+        "keywords": [
+            "Flooding",
+            "Coastal Management",
+            "Offshore",
+            "Water availability",
+            "Water quality",
+            "North Sea"
+        ]
+    },
     "extent": {
         "spatial": {
             "bbox": [

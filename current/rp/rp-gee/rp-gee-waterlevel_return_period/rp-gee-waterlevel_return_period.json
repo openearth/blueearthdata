@@ -56,7 +56,7 @@
         "deltares:date": null,
         "deltares:imageId": "projects/dgds-gee/gtsm/waterlevel_return_period",
         "deltares:dataset": "waterlevel_return_period",
-        "datetime": "2021-04-21T08:59:34.235319Z"
+        "datetime": "2021-04-21T11:29:55.474919Z"
     },
     "geometry": {
         "type": "Polygon",
@@ -104,10 +104,40 @@
     ],
     "assets": {
         "visual": {
-            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/992465937cbc8ac7b1d4790011a369b2-e2c52af5d0a36cca2515bd703c71a922/tiles/{z}/{x}/{y}",
+            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/992465937cbc8ac7b1d4790011a369b2-388596edbec6c09cf7fe8ff40c3a9be3/tiles/{z}/{x}/{y}",
             "type": "application/png",
             "title": "GEE",
             "description": "GEE WMS url",
+            "eo:bands": [
+                {
+                    "name": "waterlevel_2",
+                    "description": "2 year return period"
+                },
+                {
+                    "name": "waterlevel_5",
+                    "description": "5 year return period"
+                },
+                {
+                    "name": "waterlevel_10",
+                    "description": "10 year return period"
+                },
+                {
+                    "name": "waterlevel_25",
+                    "description": "25 year return period"
+                },
+                {
+                    "name": "waterlevel_50",
+                    "description": "50 year return period"
+                },
+                {
+                    "name": "waterlevel_75",
+                    "description": "75 year return period"
+                },
+                {
+                    "name": "waterlevel_100",
+                    "description": "100 year return period"
+                }
+            ],
             "roles": [
                 "visual"
             ]
