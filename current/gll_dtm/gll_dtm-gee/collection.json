@@ -73,6 +73,7 @@
         "deltares:name": "gll_dtm",
         "deltares:parameters": {
             "band": "elevation"
-        }
+        },
+        "deltares:url": "https://hydro-engine.appspot.com/get_gll_dtm_data"
     }
 }

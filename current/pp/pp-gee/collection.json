@@ -82,6 +82,7 @@
         "deltares:name": "weather",
         "deltares:parameters": {
             "band": "daily_precipitation"
-        }
+        },
+        "deltares:url": "https://hydro-engine.appspot.com/get_gloffis_data"
     }
 }

@@ -82,6 +82,7 @@
         "deltares:name": "wind",
         "deltares:parameters": {
             "band": "wind_direction"
-        }
+        },
+        "deltares:url": "https://hydro-engine.appspot.com/get_chasm_data"
     }
 }

@@ -62,7 +62,7 @@
         "deltares:date": null,
         "deltares:imageId": "projects/dgds-gee/metocean/waves/percentiles",
         "deltares:dataset": "percentiles",
-        "datetime": "2021-04-22T10:09:39.511958Z"
+        "datetime": "2021-04-22T11:47:45.159064Z"
     },
     "geometry": {
         "type": "Polygon",
@@ -110,7 +110,7 @@
     ],
     "assets": {
         "visual": {
-            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/147a685994d0df0cdaa6102fbd74fd8d-395d45d4a08558d628081c88b58043a3/tiles/{z}/{x}/{y}",
+            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/147a685994d0df0cdaa6102fbd74fd8d-763164c19a744b42a5be8bde00c17512/tiles/{z}/{x}/{y}",
             "type": "application/png",
             "title": "GEE",
             "description": "GEE WMS url",

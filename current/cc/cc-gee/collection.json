@@ -81,6 +81,7 @@
     ],
     "properties": {
         "deltares:name": "currents",
-        "deltares:parameters": {}
+        "deltares:parameters": {},
+        "deltares:url": "https://hydro-engine.appspot.com/get_glossis_data"
     }
 }

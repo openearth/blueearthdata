@@ -83,6 +83,7 @@
         "deltares:name": "percentiles",
         "deltares:parameters": {
             "band": "90th"
-        }
+        },
+        "deltares:url": "https://hydro-engine.appspot.com/get_metocean_data"
     }
 }

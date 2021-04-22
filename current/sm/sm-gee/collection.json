@@ -64,6 +64,7 @@
     ],
     "properties": {
         "deltares:name": "",
-        "deltares:parameters": {}
+        "deltares:parameters": {},
+        "deltares:url": ""
     }
 }

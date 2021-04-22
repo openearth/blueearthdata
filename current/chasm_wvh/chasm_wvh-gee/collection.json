@@ -82,6 +82,7 @@
         "deltares:name": "waves",
         "deltares:parameters": {
             "band": "significant_wave_height"
-        }
+        },
+        "deltares:url": "https://hydro-engine.appspot.com/get_chasm_data"
     }
 }

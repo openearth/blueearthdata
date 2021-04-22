@@ -86,6 +86,7 @@
         "deltares:name": "chlorophyll",
         "deltares:parameters": {
             "band": "b1"
-        }
+        },
+        "deltares:url": "https://hydro-engine.appspot.com/get_msfd_data"
     }
 }

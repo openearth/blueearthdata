@@ -112,6 +112,7 @@
         "deltares:name": "groundwater_declining_trend",
         "deltares:parameters": {
             "band": "b1"
-        }
+        },
+        "deltares:url": "https://hydro-engine.appspot.com/get_crucial_data"
     }
 }

@@ -74,6 +74,7 @@
         "deltares:name": "elevation",
         "deltares:parameters": {
             "bandName": ""
-        }
+        },
+        "deltares:url": "https://hydro-engine.appspot.com/get_elevation_data"
     }
 }

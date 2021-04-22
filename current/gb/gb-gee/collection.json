@@ -72,6 +72,7 @@
     ],
     "properties": {
         "deltares:name": "gebco",
-        "deltares:parameters": {}
+        "deltares:parameters": {},
+        "deltares:url": "https://hydro-engine.appspot.com/get_gebco_data"
     }
 }

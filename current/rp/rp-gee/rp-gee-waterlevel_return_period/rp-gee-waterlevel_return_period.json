@@ -56,7 +56,7 @@
         "deltares:date": null,
         "deltares:imageId": "projects/dgds-gee/gtsm/waterlevel_return_period",
         "deltares:dataset": "waterlevel_return_period",
-        "datetime": "2021-04-22T10:09:24.936663Z"
+        "datetime": "2021-04-22T11:47:27.281628Z"
     },
     "geometry": {
         "type": "Polygon",
@@ -104,7 +104,7 @@
     ],
     "assets": {
         "visual": {
-            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/992465937cbc8ac7b1d4790011a369b2-b8cfb799117e3baf658929e7718cc4b8/tiles/{z}/{x}/{y}",
+            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/992465937cbc8ac7b1d4790011a369b2-13484019ea86d642f5c8a31bc4f96700/tiles/{z}/{x}/{y}",
             "type": "application/png",
             "title": "GEE",
             "description": "GEE WMS url",

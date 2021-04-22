@@ -84,6 +84,7 @@
         "deltares:name": "waveheight",
         "deltares:parameters": {
             "band": "waveheight"
-        }
+        },
+        "deltares:url": "https://hydro-engine.appspot.com/get_glossis_data"
     }
 }

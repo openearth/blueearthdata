@@ -97,6 +97,7 @@
         "deltares:name": "tidal_indicators",
         "deltares:parameters": {
             "band": "mean_sea_level"
-        }
+        },
+        "deltares:url": "https://hydro-engine.appspot.com/get_gtsm_data"
     }
 }

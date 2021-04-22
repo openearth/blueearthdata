@@ -122,7 +122,7 @@
         "deltares:date": null,
         "deltares:imageId": "users/maartenpronk/gll_dtm/gll_dtm_v1",
         "deltares:dataset": null,
-        "datetime": "2021-04-22T10:09:42.073166Z"
+        "datetime": "2021-04-22T11:47:47.832824Z"
     },
     "geometry": {
         "type": "Polygon",
@@ -170,7 +170,7 @@
     ],
     "assets": {
         "visual": {
-            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/49c6b9e7aefa607bdeb4f4e3bee93298-4ddb43d4ba85f5864db92f28c977c344/tiles/{z}/{x}/{y}",
+            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/49c6b9e7aefa607bdeb4f4e3bee93298-e1f44eb278e901a94634ca3bb63bdc89/tiles/{z}/{x}/{y}",
             "type": "application/png",
             "title": "GEE",
             "description": "GEE WMS url",

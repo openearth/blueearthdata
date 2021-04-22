@@ -105,6 +105,7 @@
         "deltares:name": "waterlevel_return_period",
         "deltares:parameters": {
             "band": "waterlevel_2"
-        }
+        },
+        "deltares:url": "https://hydro-engine.appspot.com/get_gtsm_data"
     }
 }

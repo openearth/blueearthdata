@@ -10,9 +10,9 @@
         },
         {
             "rel": "item",
-            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sh/sh-gee/sh-gee-glossis_waterlevel_20210422050000/sh-gee-glossis_waterlevel_20210422050000.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sh/sh-gee/sh-gee-glossis_waterlevel_20210422110000/sh-gee-glossis_waterlevel_20210422110000.json",
             "type": "application/json",
-            "title": "sh-gee-glossis_waterlevel_20210422050000"
+            "title": "sh-gee-glossis_waterlevel_20210422110000"
         },
         {
             "rel": "parent",
@@ -83,6 +83,7 @@
         "deltares:name": "waterlevel",
         "deltares:parameters": {
             "band": "water_level_surge"
-        }
+        },
+        "deltares:url": "https://hydro-engine.appspot.com/get_glossis_data"
     }
 }

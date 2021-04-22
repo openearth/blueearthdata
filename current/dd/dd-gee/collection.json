@@ -82,6 +82,7 @@
         "deltares:name": "hydro",
         "deltares:parameters": {
             "band": "discharge_routed_simulated"
-        }
+        },
+        "deltares:url": "https://hydro-engine.appspot.com/get_gloffis_data"
     }
 }
