@@ -10,8 +10,9 @@
         },
         {
             "rel": "item",
-            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/wd/wd-gee/wd-gee-glossis_wind_20210424000000/wd-gee-glossis_wind_20210424000000.json",
-            "type": "application/json"
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/wd/wd-gee/wd-gee-glossis_wind_20210425000000/wd-gee-glossis_wind_20210425000000.json",
+            "type": "application/json",
+            "title": "wd-gee-glossis_wind_20210425000000"
         },
         {
             "rel": "parent",

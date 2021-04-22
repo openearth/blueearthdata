@@ -11,7 +11,8 @@
         {
             "rel": "item",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/mo_90/mo_90-gee/mo_90-gee-percentiles/mo_90-gee-percentiles.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "mo_90-gee-percentiles"
         },
         {
             "rel": "parent",

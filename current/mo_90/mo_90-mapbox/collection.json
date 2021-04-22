@@ -11,12 +11,14 @@
         {
             "rel": "item",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/mo_90/mo_90-mapbox/mo_90-mapbox-metocean10/mo_90-mapbox-metocean10.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "mo_90-mapbox-metocean10"
         },
         {
             "rel": "item",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/mo_90/mo_90-mapbox/mo_90-mapbox-metocean05/mo_90-mapbox-metocean05.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "mo_90-mapbox-metocean05"
         },
         {
             "rel": "parent",

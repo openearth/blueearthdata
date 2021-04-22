@@ -11,7 +11,8 @@
         {
             "rel": "item",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/pp/pp-gee/pp-gee-gloffis_weather_20201231000000/pp-gee-gloffis_weather_20201231000000.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "pp-gee-gloffis_weather_20201231000000"
         },
         {
             "rel": "parent",

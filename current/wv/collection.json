@@ -11,12 +11,14 @@
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/wv/wv-gee/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "wv-gee"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/wv/wv-mapbox/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "wv-mapbox"
         },
         {
             "rel": "self",

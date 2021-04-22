@@ -11,12 +11,14 @@
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/wd/wd-gee/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "wd-gee"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/wd/wd-mapbox/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "wd-mapbox"
         },
         {
             "rel": "self",

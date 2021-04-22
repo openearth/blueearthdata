@@ -11,7 +11,8 @@
         {
             "rel": "item",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/ti/ti-gee/ti-gee-tidal_indicators/ti-gee-tidal_indicators.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "ti-gee-tidal_indicators"
         },
         {
             "rel": "parent",

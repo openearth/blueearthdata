@@ -11,12 +11,14 @@
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/mt/mt-gee/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "mt-gee"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/mt/mt-mapbox/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "mt-mapbox"
         },
         {
             "rel": "self",

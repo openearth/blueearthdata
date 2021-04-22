@@ -1,7 +1,7 @@
 {
     "type": "Feature",
     "stac_version": "1.0.0-beta.2",
-    "id": "sh-gee-glossis_waterlevel_20210421110000",
+    "id": "sh-gee-glossis_waterlevel_20210422050000",
     "properties": {
         "deltares:min": -1.0,
         "deltares:max": 1.0,
@@ -41,10 +41,10 @@
             }
         ],
         "deltares:source": "projects/dgds-gee/glossis/waterlevel",
-        "deltares:date": "2021-04-21T11:00:00",
-        "deltares:imageId": "projects/dgds-gee/glossis/waterlevel/glossis_waterlevel_20210421110000",
+        "deltares:date": "2021-04-22T05:00:00",
+        "deltares:imageId": "projects/dgds-gee/glossis/waterlevel/glossis_waterlevel_20210422050000",
         "deltares:dataset": "waterlevel",
-        "datetime": "2021-04-21T11:00:00Z"
+        "datetime": "2021-04-22T05:00:00Z"
     },
     "geometry": {
         "type": "Polygon",
@@ -92,7 +92,7 @@
     ],
     "assets": {
         "visual": {
-            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/da22d2f71d7fbf294613c7495c7a81cc-216ebf04439728e318df6e8f2b346ed1/tiles/{z}/{x}/{y}",
+            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/b43f58ba593b7e62e47c278c185acac9-ce7d7d49bf90a09554971e01d9d3b98e/tiles/{z}/{x}/{y}",
             "type": "application/png",
             "title": "GEE",
             "description": "GEE WMS url",

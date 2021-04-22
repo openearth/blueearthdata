@@ -11,7 +11,8 @@
         {
             "rel": "item",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wdd/chasm_wdd-mapbox/chasm_wdd-mapbox-chasm/chasm_wdd-mapbox-chasm.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "chasm_wdd-mapbox-chasm"
         },
         {
             "rel": "parent",

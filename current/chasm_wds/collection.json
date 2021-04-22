@@ -11,12 +11,14 @@
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wds/chasm_wds-gee/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "chasm_wds-gee"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wds/chasm_wds-mapbox/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "chasm_wds-mapbox"
         },
         {
             "rel": "self",

@@ -11,7 +11,8 @@
         {
             "rel": "item",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/gll_dtm/gll_dtm-gee/gll_dtm-gee-gll_dtm_v1/gll_dtm-gee-gll_dtm_v1.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "gll_dtm-gee-gll_dtm_v1"
         },
         {
             "rel": "parent",

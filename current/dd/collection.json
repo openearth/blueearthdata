@@ -11,12 +11,14 @@
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/dd/dd-gee/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "dd-gee"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/dd/dd-mapbox/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "dd-mapbox"
         },
         {
             "rel": "self",

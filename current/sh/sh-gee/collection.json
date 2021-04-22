@@ -10,8 +10,9 @@
         },
         {
             "rel": "item",
-            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sh/sh-gee/sh-gee-glossis_waterlevel_20210421110000/sh-gee-glossis_waterlevel_20210421110000.json",
-            "type": "application/json"
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sh/sh-gee/sh-gee-glossis_waterlevel_20210422050000/sh-gee-glossis_waterlevel_20210422050000.json",
+            "type": "application/json",
+            "title": "sh-gee-glossis_waterlevel_20210422050000"
         },
         {
             "rel": "parent",

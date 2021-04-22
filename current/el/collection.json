@@ -11,7 +11,8 @@
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/el/el-gee/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "el-gee"
         },
         {
             "rel": "self",

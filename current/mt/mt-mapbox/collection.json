@@ -11,7 +11,8 @@
         {
             "rel": "item",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/mt/mt-mapbox/mt-mapbox-gloffis/mt-mapbox-gloffis.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "mt-mapbox-gloffis"
         },
         {
             "rel": "parent",

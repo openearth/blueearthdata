@@ -11,12 +11,14 @@
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/pp/pp-gee/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "pp-gee"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/pp/pp-mapbox/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "pp-mapbox"
         },
         {
             "rel": "self",

@@ -11,22 +11,26 @@
         {
             "rel": "item",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sm/sm-mapbox/sm-mapbox-shoreline-aggregatedpointsz0/sm-mapbox-shoreline-aggregatedpointsz0.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "sm-mapbox-shoreline-aggregatedpointsz0"
         },
         {
             "rel": "item",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sm/sm-mapbox/sm-mapbox-shoreline-aggregatedpointsz5/sm-mapbox-shoreline-aggregatedpointsz5.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "sm-mapbox-shoreline-aggregatedpointsz5"
         },
         {
             "rel": "item",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sm/sm-mapbox/sm-mapbox-shoreline-transectsaspoints/sm-mapbox-shoreline-transectsaspoints.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "sm-mapbox-shoreline-transectsaspoints"
         },
         {
             "rel": "item",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sm/sm-mapbox/sm-mapbox-shoreline-transectsaspoints-bar-chart/sm-mapbox-shoreline-transectsaspoints-bar-chart.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "sm-mapbox-shoreline-transectsaspoints-bar-chart"
         },
         {
             "rel": "parent",

@@ -10,8 +10,9 @@
         },
         {
             "rel": "item",
-            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/cc/cc-gee/cc-gee-glossis_currents_20210421050000/cc-gee-glossis_currents_20210421050000.json",
-            "type": "application/json"
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/cc/cc-gee/cc-gee-glossis_currents_20210422050000/cc-gee-glossis_currents_20210422050000.json",
+            "type": "application/json",
+            "title": "cc-gee-glossis_currents_20210422050000"
         },
         {
             "rel": "parent",

@@ -11,127 +11,152 @@
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/cc/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "cc"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/wl/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "wl"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sh/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "sh"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/tt/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "tt"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/rp/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "rp"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/ti/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "ti"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/wd/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "wd"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/wv/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "wv"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/pp/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "pp"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/mt/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "mt"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/dd/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "dd"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/mo_90/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "mo_90"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/gb/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "gb"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/gll_dtm/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "gll_dtm"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/el/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "el"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sm/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "sm"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wvh/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "chasm_wvh"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wvd/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "chasm_wvd"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wvp/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "chasm_wvp"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wvt/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "chasm_wvt"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wds/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "chasm_wds"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wdd/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "chasm_wdd"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/cd/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "cd"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/ce/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "ce"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/ms/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "ms"
         },
         {
             "rel": "self",

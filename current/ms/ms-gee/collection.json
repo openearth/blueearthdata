@@ -11,7 +11,8 @@
         {
             "rel": "item",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/ms/ms-gee/ms-gee-CHL_1km_2013_2018/ms-gee-CHL_1km_2013_2018.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "ms-gee-CHL_1km_2013_2018"
         },
         {
             "rel": "parent",

@@ -11,12 +11,14 @@
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/mo_90/mo_90-gee/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "mo_90-gee"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/mo_90/mo_90-mapbox/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "mo_90-mapbox"
         },
         {
             "rel": "self",

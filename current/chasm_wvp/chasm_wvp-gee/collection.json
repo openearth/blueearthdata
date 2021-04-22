@@ -11,7 +11,8 @@
         {
             "rel": "item",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/chasm_wvp/chasm_wvp-gee/chasm_wvp-gee-chasm_swanslices_20171029000000/chasm_wvp-gee-chasm_swanslices_20171029000000.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "chasm_wvp-gee-chasm_swanslices_20171029000000"
         },
         {
             "rel": "parent",

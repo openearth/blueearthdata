@@ -11,7 +11,8 @@
         {
             "rel": "item",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/pp/pp-mapbox/pp-mapbox-gloffis/pp-mapbox-gloffis.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "pp-mapbox-gloffis"
         },
         {
             "rel": "parent",

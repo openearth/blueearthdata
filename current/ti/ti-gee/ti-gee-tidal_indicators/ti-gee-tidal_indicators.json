@@ -44,7 +44,7 @@
         "deltares:date": null,
         "deltares:imageId": "projects/dgds-gee/gtsm/tidal_indicators",
         "deltares:dataset": "tidal_indicators",
-        "datetime": "2021-04-21T11:29:56.348878Z"
+        "datetime": "2021-04-22T10:09:26.814174Z"
     },
     "geometry": {
         "type": "Polygon",
@@ -92,7 +92,7 @@
     ],
     "assets": {
         "visual": {
-            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/59d0a06b382361c0d219b96f63abed13-8cd2490c50349d4107ccfd8144f71e2a/tiles/{z}/{x}/{y}",
+            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/59d0a06b382361c0d219b96f63abed13-5ae1869b9da72b0e49693dec382aebad/tiles/{z}/{x}/{y}",
             "type": "application/png",
             "title": "GEE",
             "description": "GEE WMS url",

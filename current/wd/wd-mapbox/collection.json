@@ -11,7 +11,8 @@
         {
             "rel": "item",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/wd/wd-mapbox/wd-mapbox-glossis/wd-mapbox-glossis.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "wd-mapbox-glossis"
         },
         {
             "rel": "parent",

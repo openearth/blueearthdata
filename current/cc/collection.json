@@ -11,12 +11,14 @@
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/cc/cc-gee/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "cc-gee"
         },
         {
             "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/cc/cc-flow/collection.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "cc-flow"
         },
         {
             "rel": "self",

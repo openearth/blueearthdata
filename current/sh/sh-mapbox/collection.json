@@ -11,7 +11,8 @@
         {
             "rel": "item",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sh/sh-mapbox/sh-mapbox-glossis/sh-mapbox-glossis.json",
-            "type": "application/json"
+            "type": "application/json",
+            "title": "sh-mapbox-glossis"
         },
         {
             "rel": "parent",
