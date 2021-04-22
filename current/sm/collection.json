@@ -10,12 +10,6 @@
         },
         {
             "rel": "child",
-            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sm/sm-gee/collection.json",
-            "type": "application/json",
-            "title": "sm-gee"
-        },
-        {
-            "rel": "child",
             "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/sm/sm-mapbox/collection.json",
             "type": "application/json",
             "title": "sm-mapbox"

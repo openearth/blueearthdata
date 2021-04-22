@@ -30,16 +30,6 @@
             "roles": [
                 "featureinfo"
             ]
-        },
-        "timeseries": {
-            "href": "http://c-fews0501.directory.intra:8080/FewsWebServices/rest/digitaledelta/2.0",
-            "type": "dd-api",
-            "title": "tm01",
-            "description": "TimeSeries",
-            "name": "tm01",
-            "roles": [
-                "timeseries"
-            ]
         }
     },
     "title": "Wave Period CHASM",

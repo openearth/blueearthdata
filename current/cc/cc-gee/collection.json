@@ -10,9 +10,9 @@
         },
         {
             "rel": "item",
-            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/cc/cc-gee/cc-gee-glossis_currents_20210422050000/cc-gee-glossis_currents_20210422050000.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/cc/cc-gee/cc-gee-glossis_currents_20210422110000/cc-gee-glossis_currents_20210422110000.json",
             "type": "application/json",
-            "title": "cc-gee-glossis_currents_20210422050000"
+            "title": "cc-gee-glossis_currents_20210422110000"
         },
         {
             "rel": "parent",
@@ -29,16 +29,6 @@
             "name": "currents",
             "roles": [
                 "featureinfo"
-            ]
-        },
-        "timeseries": {
-            "href": "http://c-fews0169.directory.intra:8080/FewsWebServices/rest/digitaledelta/2.0",
-            "type": "dd-api",
-            "title": "",
-            "description": "TimeSeries",
-            "name": "",
-            "roles": [
-                "timeseries"
             ]
         }
     },

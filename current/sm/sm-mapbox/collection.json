@@ -47,6 +47,16 @@
             "roles": [
                 "graph"
             ]
+        },
+        "timeseries": {
+            "href": "https://storage.googleapis.com/shoreline-monitor/features/{box}/{section}/BOX_{box}_{section}.json",
+            "type": "dd-api-shoreline",
+            "title": "Shoreline Transects",
+            "description": "TimeSeries",
+            "name": "Shoreline Transects",
+            "roles": [
+                "timeseries"
+            ]
         }
     },
     "title": "Shoreline Monitor",

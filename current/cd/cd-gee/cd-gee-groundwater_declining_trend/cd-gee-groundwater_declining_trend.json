@@ -32,7 +32,7 @@
         "deltares:date": null,
         "deltares:imageId": "projects/dgds-gee/crucial/groundwater_declining_trend",
         "deltares:dataset": "groundwater_declining_trend",
-        "datetime": "2021-04-22T11:48:03.727035Z"
+        "datetime": "2021-04-22T13:38:36.671934Z"
     },
     "geometry": {
         "type": "Polygon",
@@ -80,7 +80,7 @@
     ],
     "assets": {
         "visual": {
-            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/b1c1bd0121240e1dea1aeb0607f8b5c5-7194193881846b084b2c4ae3f11e1553/tiles/{z}/{x}/{y}",
+            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/b1c1bd0121240e1dea1aeb0607f8b5c5-373b1cd74922685020c1cdece3c67a08/tiles/{z}/{x}/{y}",
             "type": "application/png",
             "title": "GEE",
             "description": "GEE WMS url",

@@ -385,7 +385,7 @@
         "deltares:min": -9000,
         "deltares:max": 4500,
         "deltares:imageId": "projects/dgds-gee/bathymetry/gebco/2019",
-        "datetime": "2021-04-22T11:47:46.796922Z"
+        "datetime": "2021-04-22T13:38:20.492064Z"
     },
     "geometry": {
         "type": "Polygon",
@@ -433,7 +433,7 @@
     ],
     "assets": {
         "visual": {
-            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/717464ec2428aff6cafc3d4228790a08-2c87ea943d6cca1a33d2f39291bf336e/tiles/{z}/{x}/{y}",
+            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/717464ec2428aff6cafc3d4228790a08-7e9d694444f6f6cfa5aca89ac1ba80ba/tiles/{z}/{x}/{y}",
             "type": "application/png",
             "title": "GEE",
             "description": "GEE WMS url",

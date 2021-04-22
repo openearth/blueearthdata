@@ -29,6 +29,16 @@
             "roles": [
                 "graph"
             ]
+        },
+        "timeseries": {
+            "href": "http://c-fews0169.directory.intra:8080/FewsWebServices/rest/digitaledelta/2.0",
+            "type": "dd-api",
+            "title": "H.astronomical.simulated",
+            "description": "TimeSeries",
+            "name": "H.astronomical.simulated",
+            "roles": [
+                "timeseries"
+            ]
         }
     },
     "title": "Tide",

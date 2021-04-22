@@ -1,7 +1,7 @@
 {
     "type": "Feature",
     "stac_version": "1.0.0-beta.2",
-    "id": "wv-gee-glossis_waveheight_20210425000000",
+    "id": "wv-gee-glossis_waveheight_20210425060000",
     "properties": {
         "deltares:min": 0.0,
         "deltares:max": 8.0,
@@ -59,10 +59,10 @@
             }
         ],
         "deltares:source": "projects/dgds-gee/glossis/waveheight",
-        "deltares:date": "2021-04-25T00:00:00",
-        "deltares:imageId": "projects/dgds-gee/glossis/waveheight/glossis_waveheight_20210425000000",
+        "deltares:date": "2021-04-25T06:00:00",
+        "deltares:imageId": "projects/dgds-gee/glossis/waveheight/glossis_waveheight_20210425060000",
         "deltares:dataset": "waveheight",
-        "datetime": "2021-04-25T00:00:00Z"
+        "datetime": "2021-04-25T06:00:00Z"
     },
     "geometry": {
         "type": "Polygon",
@@ -110,7 +110,7 @@
     ],
     "assets": {
         "visual": {
-            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/c1a4eb661a45d5ecc3c7f38e454b1736-05655d45cb8c25256e48732d6c432320/tiles/{z}/{x}/{y}",
+            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/d70e18d0a904460dd0ce5134355cb6ef-df28b54adc48df8f57dc86e5b27d4fd0/tiles/{z}/{x}/{y}",
             "type": "application/png",
             "title": "GEE",
             "description": "GEE WMS url",

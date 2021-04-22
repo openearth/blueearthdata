@@ -10,9 +10,9 @@
         },
         {
             "rel": "item",
-            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/wv/wv-gee/wv-gee-glossis_waveheight_20210425000000/wv-gee-glossis_waveheight_20210425000000.json",
+            "href": "https://raw.githubusercontent.com/openearth/blueearthdata/main/current/wv/wv-gee/wv-gee-glossis_waveheight_20210425060000/wv-gee-glossis_waveheight_20210425060000.json",
             "type": "application/json",
-            "title": "wv-gee-glossis_waveheight_20210425000000"
+            "title": "wv-gee-glossis_waveheight_20210425060000"
         },
         {
             "rel": "parent",
@@ -29,16 +29,6 @@
             "name": "waveheight",
             "roles": [
                 "featureinfo"
-            ]
-        },
-        "timeseries": {
-            "href": "http://c-fews0169.directory.intra:8080/FewsWebServices/rest/digitaledelta/2.0",
-            "type": "dd-api",
-            "title": "Wave.hm0.simulated",
-            "description": "TimeSeries",
-            "name": "Wave.hm0.simulated",
-            "roles": [
-                "timeseries"
             ]
         }
     },

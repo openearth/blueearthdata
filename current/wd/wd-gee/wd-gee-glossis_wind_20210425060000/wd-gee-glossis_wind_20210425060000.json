@@ -1,7 +1,7 @@
 {
     "type": "Feature",
     "stac_version": "1.0.0-beta.2",
-    "id": "wd-gee-glossis_wind_20210425000000",
+    "id": "wd-gee-glossis_wind_20210425060000",
     "properties": {
         "deltares:min": 0.0,
         "deltares:max": 50.0,
@@ -53,11 +53,11 @@
             }
         ],
         "deltares:source": "projects/dgds-gee/glossis/wind",
-        "deltares:date": "2021-04-25T00:00:00",
-        "deltares:imageId": "projects/dgds-gee/glossis/wind/glossis_wind_20210425000000",
+        "deltares:date": "2021-04-25T06:00:00",
+        "deltares:imageId": "projects/dgds-gee/glossis/wind/glossis_wind_20210425060000",
         "deltares:dataset": "wind",
         "deltares:band": null,
-        "datetime": "2021-04-25T00:00:00Z"
+        "datetime": "2021-04-25T06:00:00Z"
     },
     "geometry": {
         "type": "Polygon",
@@ -105,7 +105,7 @@
     ],
     "assets": {
         "visual": {
-            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/ee37b9591cdb82e547465392936327d5-04e45ea42a78c52265a646005e8db4d8/tiles/{z}/{x}/{y}",
+            "href": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/maps/78dfbd2d16101f03ff4cd8f525c33915-2d253015562652689cc0b941bd8e1862/tiles/{z}/{x}/{y}",
             "type": "application/png",
             "title": "GEE",
             "description": "GEE WMS url",

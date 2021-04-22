@@ -35,6 +35,16 @@
             "roles": [
                 "graph"
             ]
+        },
+        "timeseries": {
+            "href": "https://storage.googleapis.com/dgds-metocean-svg/{locationId}.svg",
+            "type": "staticimage",
+            "title": "Windrose",
+            "description": "TimeSeries",
+            "name": "Windrose",
+            "roles": [
+                "timeseries"
+            ]
         }
     },
     "title": "Wave and wind climate",

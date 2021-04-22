@@ -29,6 +29,16 @@
             "roles": [
                 "graph"
             ]
+        },
+        "timeseries": {
+            "href": "http://tw-151.xtr.deltares.nl:8081/FewsWebServices/rest/digitaledelta/2.0",
+            "type": "dd-api",
+            "title": "Q.simulated",
+            "description": "TimeSeries",
+            "name": "Q.simulated",
+            "roles": [
+                "timeseries"
+            ]
         }
     },
     "title": "Discharge",
